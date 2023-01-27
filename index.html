@@ -6,30 +6,35 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="design/main.css" type="text/css">
+  <link rel="stylesheet" href="main.css" type="text/css">
   <title>TODO LIST APP</title>
 </head>
 <body>
 
-  <section class="header-bg">
-    <h1>Todo</h1>
-    <span>
-      <img src="images/icon-sun.svg">
-    </span>
-    <input type="text">
-  </section>
-
   <section>
-    <div>
-      <p><!-- Add dynamic number --> items left</p>
-      <a href="">Clear Completed</a>
+    <div class="header-bg"></div>
+    <div class="main-content">
+      <nav>
+        <h1>Todo</h1>
+        <span>
+          <img src="images/icon-moon.svg">
+        </span>
+      </nav>
+      
+      <input type="text" placeholder="Create a new todo">
+
+      <div>
+        <p><!-- Add dynamic number --> items left</p>
+        <a href="">Clear Completed</a>
+      </div>
+      <div>
+        <a href="">All</a>
+        <a href="">Active</a>
+        <a href="">Completed</a>
+      </div>
+      <p>Drag and drop to reorder list</p>
     </div>
-    <div>
-      <a href="">All</a>
-      <a href="">Active</a>
-      <a href="">Completed</a>
-    </div>
-    <p>Drag and drop to reorder list</p>
+    
   </section>
 </body>
 </html>

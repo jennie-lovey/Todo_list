@@ -1,0 +1,42 @@
+@import url('variables.css');
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("fonts/Josefin_Sans/static/JosefinSans-Light.ttf");
+}
+
+* {
+    margin: 0px;
+    font-family: 'Josefin Sans';
+}
+
+.header-bg {
+    width: 100%;
+    background-image: url('images/bg-desktop-light.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: fixed;
+}
+
+.main-content {
+    position: absolute;
+    justify-content: center;
+    margin: 80px 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.main-content nav {
+    display: flex;
+}
+
+.main-content nav h1 {
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 15px;
+}
