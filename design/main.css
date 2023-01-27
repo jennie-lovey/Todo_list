@@ -1,0 +1,19 @@
+@import url(variables.css);
+
+.header-bg{
+    margin: 0%;
+    background-image:
+   url(../images/bg-desktop-light.jpg) ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   color :white;
+    
+    
+
+
+
+
+}
