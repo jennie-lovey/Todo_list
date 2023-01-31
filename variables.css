@@ -2,7 +2,21 @@
     --bright-blue: hsl(220, 98%, 61%);
     --check-background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
 
-    /* dark theme vars */
+    /* ligth theme vars */
+    --light-gray: hsl(0, 0%, 98%);
+    --light-grayish:hsl(236, 33%, 92%);
+    --Light-GrayishBlue: hsl(233, 11%, 84%);
+    --Dark-GrayishBlue: hsl(236, 9%, 61%);
+    --VeryDark-GrayishBlue: hsl(235, 19%, 35%);
 
-    /* light theme vars */
+    /* dark theme vars */
+    --Very-DarkBlue: hsl(235, 21%, 11%);
+    --Very-DarkDesaturated-Blue: hsl(235, 24%, 19%);
+    --Light-GrayishBlue: hsl(234, 39%, 85%);
+    --Light-GrayishBlue:(hover): hsl(236, 33%, 92%);
+    --Dark-GrayishBlue: hsl(234, 11%, 52%);
+    --Very-Dark-GrayishBlue: hsl(233, 14%, 35%);
+    --Very-Dark-GrayishBlue: hsl(237, 14%, 26%);
+    /*body test*/
+
 }

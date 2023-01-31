@@ -40,3 +40,14 @@
     font-weight: 900;
     letter-spacing: 15px;
 }
+
+.main-content input{
+    width: 80%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+
+}
